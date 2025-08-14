@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+
+
+
+
+    <!-- Rounded icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+
+    <!-- Outlined icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- Sharp icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" rel="stylesheet" />
+
+    
+
+
+
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- App Header -->
+
+        <header class="app-header">
+            <h1 class="heading">Hello, there</h1>
+            <h2 class="sub-heading">What can I do for You..?</h2>
+        </header>
+
+        <!-- Suggestion List -->
+            <ul class="suggestions">
+
+                <li class="suggestions-item">
+                    <p class="text">
+                        Help me organize my day better.
+                    </p>
+                    <span class="material-symbols-rounded">
+                        draw
+                        </span>
+                </li>
+
+                <li class="suggestions-item">
+                    <p class="text">
+                            What are the best 
+                            new skills to learn?
+                    </p>
+                    <span class="material-symbols-sharp">
+                        school
+                        </span>
+                    
+                </li>
+
+
+                <li class="suggestions-item">
+                    <p class="text">
+                            Suggest cool countries to Travel.
+                    </p>
+                    <span class="material-symbols-rounded">
+                        flight
+                    </span>
+                </li>
+
+                <li class="suggestions-item">
+                    <p class="text">
+                            Create a Python code.
+                    </p>
+                    <span class="material-symbols-outlined">
+                        terminal
+                        </span>
+                    </li>
+
+
+
+            </ul>
+
+
+
+
+
+
+            <!-- ChatsContainer -->
+            <div class="chats-container">
+            </div>
+
+
+            <!-- Prompt Container -->
+            <div class="prompt-container">
+                <div class="prompt-wrapper">
+                    <form action="#" class="prompt-form">
+                        <input type="text" placeholder="Ask Gemini" class="prompt-input" required>
+                        <div class="prompt-actions">
+
+                            <!-- File Upload Wrapper -->
+
+                            <div class="file-upload-wrapper">
+
+                                <img src="#" class="file-preview">
+                                <input type="file" accept="image/*, .pdf, .txt, .csv" id="file-input" hidden>
+
+ 
+                                <button type="button" 
+                            class="file-icon
+                            material-symbols-rounded">description</button>
+
+                            <button id="add-file-btn" type="button" 
+                            class="material-symbols-rounded">attach_file</button>
+
+                            <button id="cancel-file-btn" type="button" 
+                            class="material-symbols-rounded">close</button>
+
+
+                            </div>
+
+                            <button type="button"
+                            id="stop-response-btn" class="material-symbols-rounded">stop_circle</button>
+                            <button id="send-prompt-btn" class="material-symbols-rounded">arrow_upward</button>
+                        </div>
+                    </form>
+
+                    <button id="theme-toggle-btn"
+                    class="material-symbols-rounded">light_mode</button>
+                    <button id="delete-chats-btn"
+                    class="material-symbols-rounded">delete</button>
+
+                </div>
+
+                <p class="disclaimer-text">Gemini can make mistakes, so double check everything..!</p>
+            </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
