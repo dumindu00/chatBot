@@ -9,7 +9,8 @@ const themeToggle = document.querySelector("#theme-toggle-btn")
 
 // API setup
 
- API_KEY=API_KEY
+ API_KEY=API_KEYclear
+ 
  API_URL=API_URL
 
 
