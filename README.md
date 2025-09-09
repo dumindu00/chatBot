@@ -1,29 +1,22 @@
-# Chatbot with React & Gemini AI
+# Chatbot with JavaScript & Gemini AI
 
-A conversational chatbot web application built using **React.js** for the front-end and **Gemini AI** for intelligent responses.
+A simple chatbot web application built using **plain JavaScript**, integrated with **Gemini AI** for intelligent responses.
 
 ---
 
 ## Features
 
 - Interactive chatbot interface
-- Real-time AI responses powered by Gemini AI
-- Clean and responsive UI built with React
-- Easily extendable for custom commands or integrations
+- AI-powered responses via Gemini AI
+- Lightweight and easy to run in any browser
 
 ---
 
 ## Technologies Used
 
-- **Front-end:** React.js
+- **Front-end:** HTML, CSS, JavaScript
 - **AI Integration:** Gemini AI
-- **Other:** Axios (for API calls), CSS/Styled Components for styling
 
 ---
 
-## Installation
 
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/yourusername/chatbot-gemini.git
